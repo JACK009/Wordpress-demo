@@ -1,0 +1,19 @@
+/*!
+Theme Name: demo
+Theme URI: http://wordpress.org/themes/twentythirteen
+Description: demo template
+Version: 1.0
+Tags: demo, bootstrap
+Text Domain: demo
+*/
+
+@import "vars/index";
+@import "vars/bootstrap-override";
+
+@import "../../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../../../../node_modules/font-awesome/scss/font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Roboto:400,700');
+
+@import "base/index";
+@import "components/index";
+@import "pages/index";

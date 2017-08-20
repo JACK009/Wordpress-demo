@@ -1,0 +1,20 @@
+.error404 {
+  background: $color-lightdark;
+
+  .page-content {
+    text-align: center;
+  }
+  h1,
+  h2 {
+    color: $color-light;
+  }
+  h1 {
+    font-size: 192px;
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+  .btn {
+    margin-top: $margin-x;
+  }
+}

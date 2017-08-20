@@ -1,0 +1,24 @@
+.btn {
+  transition: all .15s ease-in-out;
+  padding: $margin-xs $margin-x;
+  background: transparent;
+  color: $color-font;
+  border-radius: $border-radius-default;
+}
+.btn-primary {
+  border: $border-size-default solid $color-primary;
+  color: $color-primary;
+  &:hover {
+    background: $color-primary;
+    border: $border-size-default solid $color-primary;
+  }
+}
+.btn-default {
+  color: $color-light;
+  border: $border-size-default solid $color-light;
+
+  &:hover {
+    background: $color-primary;
+    border: $border-size-default solid $color-primary;
+  }
+}

@@ -1,0 +1,12 @@
+.navbar-inverse {
+  border: none;
+}
+.navbar-brand {
+  font-size: $font-size-s;
+}
+nav {
+  font-size: $font-size-s;
+}
+.navbar-nav > li > a {
+  text-transform: uppercase;
+}

@@ -1,0 +1,48 @@
+$footer-height: 80px;
+html {
+  font-size: $font-base;
+  position: relative;
+  min-height: 100%;
+  margin-top: 0 !important;
+}
+body {
+  letter-spacing: $font-letter-spacing;
+  color: $color-font;
+  margin-bottom: $footer-height;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-font;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  height: $footer-height;
+  bottom: 0;
+  background: $color-lightdark;
+  color: $color-light;
+  padding: $margin-x 0;
+  font-size: $font-size-s;
+
+  .social a {
+    color: $color-light;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+  .copyright,
+  .social {
+    margin: 0;
+  }
+}

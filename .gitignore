@@ -1,18 +1,53 @@
 *.log
-wp-config.php
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/backups/
-wp-content/blogs.dir/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
-wp-content/wp-cache-config.php
-wp-content/plugins/hello.php
+.idea/
 
-/.htaccess
-/license.txt
-/readme.html
-/sitemap.xml
-/sitemap.xml.gz
+node_modules/
+vendor/
 
+wordpress/wp-config.php
+
+wordpress/.htaccess
+wordpress/license.txt
+wordpress/readme.html
+wordpress/sitemap.xml
+wordpress/sitemap.xml.gz
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins" directory
+# "plugins" directory
+# "themes" directory
+wordpress/wp-content/*
+wordpress/wp-admin/*
+wordpress/wp-includes/*
+!wordpress/wp-content/mu-plugins/
+!wordpress/wp-content/plugins/
+!wordpress/wp-content/themes/
+
+# ignore these plugins from the core
+wordpress/wp-content/plugins/hello.php
+wordpress/wp-content/plugins/akismet/
+
+# ignore specific themes
+wordpress/wp-content/themes/twenty*/
+
+wordpress/wp-content/themes/demo/fonts/*
+wordpress/wp-content/themes/demo/css/*
+wordpress/wp-content/themes/demo/js/*
+
+wordpress/wp-trackback.php
+wordpress/wp-signup.php
+wordpress/wp-settings.php
+wordpress/wp-mail.php
+wordpress/wp-login.php
+wordpress/wp-load.php
+wordpress/wp-links-opml.php
+wordpress/wp-cron.php
+wordpress/wp-config-sample.php
+wordpress/wp-comments-post.php
+wordpress/wp-blog-header.php
+wordpress/wp-activate.php
+wordpress/wp-content/themes/index.php
+wordpress/wp-content/plugins/index.php
+wordpress/xmlrpc.php
+wordpress/index.php
+wordpress/composer.json
